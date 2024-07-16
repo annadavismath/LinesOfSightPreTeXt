@@ -4,7 +4,53 @@
   <title>Chapter Title</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> 
+    <docinfo>
+    <latex-image-preamble>
+    \usepackage{tikz}
+    </latex-image-preamble>
+</docinfo>
+<figure>
+    <caption>RNA Codons Table, by Florian Hollandt</caption>
+    <image xml:id="rna-codons-table" width="100%">
+        <description>A table of the RNA codons.</description>
+        <latex-image>
+        \begin{tikzpicture}
+        \footnotesize
+        \tikzstyle{every node}=[inner sep=1.7pt,anchor=center]
+        % to_x and from_x styles denote bonds terminating
+        % or starting in labeled nodes. x denotes the
+        % number of letters in the node label.
+        \tikzstyle{to_1}=[shorten >=5pt]
+        \tikzstyle{to_1i}=[shorten >=6pt]
+        \tikzstyle{to_2}=[shorten >=7pt]
+        \tikzstyle{to_3}=[shorten >=8pt]
+        ...
+        \begin{scope}[scale=0.5]    % Asparagine
+        \draw[ultra thick,shorten >=2pt,shorten &lt;=2pt] (90-2*5.625:8.2)
+                        arc(90-2*5.625:90-4*5.625:8.2);
+        \path (90-3.5*3.625-3:13.3) node (zero) {};
+        \draw[to_2]  (zero.center)  -- ++(30:1) node (CO) {}
+                        -- +(330:1) node [anchor=base] {O$^{\mbox{-}}$};
+        \draw[to_1]  (CO.center)    -- +(90:1) node (Od) {O};
+        \draw[to_1i] (CO.30)        -- +(90:1);
+        \draw[to_3]  (zero.center)  -- ++(150:1) node {NH$_{\mbox{3}}^{\mbox{+}}$};
+        \draw[to_2]  (zero.center)  -- ++(270:1) node(Cb){}
+                        -- ++(330:1) node (Cc) {}
+                        -- +(30:1) node (Cd) {NH$_{\mbox{2}}$};
+        \draw[to_1i] (Cc.center)    -- +(270:1) node (O) {};
+        \draw[to_1]  (Cc.210)       -- (O.150);
+        \path (O.center) node {O};
+        \end{scope}
+        ...
+        \node at (90-55*5.625:4.5) {C};
+        \node at (90-58*5.625:4.5) {S};
+        \node at (90-61*5.625:4.5) {L};
+        \node at (90-63*5.625:4.5) {F};
+        \end{tikzpicture}
+        </latex-image>
+    </image>
+</figure> </p>
   </introduction>
 
   <!-- include sections -->
