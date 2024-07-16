@@ -15,8 +15,8 @@ var ptx_lunr_docs = [
   "url": "sec-section-name.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Up the Stairs",
+  "body": " Up the Stairs     "
 },
 {
   "id": "backmatter-2",
