@@ -3,6 +3,6 @@
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Up the Stairs</title>
 
-  <p> <interactive geogebra="p44hf4cs" /> </p>
+  <p> <interactive geogebra="p44hf4cs" material-width="1000"/> </p>
 
 </section>
