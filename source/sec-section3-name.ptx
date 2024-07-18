@@ -229,11 +229,12 @@
           </me>.
         </p>
       </introduction>
-
+<p>
 <figure>
   <caption>Graph of <m>ln(x^2+5)-3</m></caption>
   <interactive xml:id="desmos-natural-log" desmos="ttox1bvxku" width="60%" aspect="2:3" />
 </figure>
+</p>
 
       <task>
         <p>
