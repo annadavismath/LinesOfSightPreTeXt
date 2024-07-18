@@ -243,6 +243,26 @@
       </task>
 </exercise>
 
+<exercise workspace="1.25in">
+      <introduction>
+        <p>
+          Play with the following graph:
+          <me>
+            m \begin{bmatrix}2 \\ 5\end{bmatrix} = \begin{bmatrix}3 \\ 7\end{bmatrix}
+          </me>.
+        </p>
+
+        <p>
+<interactive geogebra="gtfzbdzs" width="150%" aspect="9:5"/>
+</p>
+      </introduction>
+      <task>
+        <p>
+          What do you observe?
+        </p>
+      </task>
+</exercise>
+
 </worksheet>
 
 
