@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Up the Stairs",
-  "body": " Up the Stairs     "
+  "body": " Up the Stairs        "
 },
 {
   "id": "sec-section2-name",
