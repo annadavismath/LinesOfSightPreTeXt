@@ -19,6 +19,24 @@ var ptx_lunr_docs = [
   "body": " Up the Stairs     "
 },
 {
+  "id": "sec-section2-name",
+  "level": "1",
+  "url": "sec-section2-name.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Multiple choice test",
+  "body": " Multiple choice test  Multiple-Choice, Not Randomized, One Answer stop signs  What color is a stop sign?     Green    Green means go! .      Red    Red is universally used for prohibited activities or serious warnings.      White    White might be hard to see.     What did you see last time you went driving?   Maybe go out for a drive?   "
+},
+{
+  "id": "multiple-choice-not-randomized",
+  "level": "2",
+  "url": "sec-section2-name.html#multiple-choice-not-randomized",
+  "type": "Checkpoint",
+  "number": "1.2.1",
+  "title": "Multiple-Choice, Not Randomized, One Answer.",
+  "body": "Multiple-Choice, Not Randomized, One Answer stop signs  What color is a stop sign?     Green    Green means go! .      Red    Red is universally used for prohibited activities or serious warnings.      White    White might be hard to see.     What did you see last time you went driving?   Maybe go out for a drive?  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
