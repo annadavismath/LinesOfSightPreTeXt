@@ -228,14 +228,14 @@
             m \begin{bmatrix}2 \\ 5\end{bmatrix} = \begin{bmatrix}3 \\ 7\end{bmatrix}
           </me>.
         </p>
-      </introduction>
-<p>
+
+        <p>
 <figure>
   <caption>Graph of <m>ln(x^2+5)-3</m></caption>
   <interactive xml:id="desmos-natural-log" desmos="ttox1bvxku" width="60%" aspect="2:3" />
 </figure>
 </p>
-
+      </introduction>
       <task>
         <p>
           What do you observe?
