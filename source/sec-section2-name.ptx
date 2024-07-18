@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Up the Stairs</title>
+<section xml:id="sec-section2-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Multiple choice test</title>
 
   <exercise label="multiple-choice-not-randomized">
   <title>Multiple-Choice, Not Randomized, One Answer</title>
