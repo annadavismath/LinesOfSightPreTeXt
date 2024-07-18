@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Sample Worksheet",
-  "body": " Sample Worksheet   Dot products and projection     Let , , , . Find the values of the following expressions:          Are any of these vectors perpendicular to each other?    The vectors and are pictured below. Derive the formula for projection on a line and use it to find the projection of on the line spanned by . Also compute the length of the residual vector.   TikZ Electronics Diagram   a pile of electronic components wired together           Consider the vector equation .  Check that there is no solution that makes the equation true. Use projection to find the best approximation . Compute . Compute the residual vector. Compute the length of the residual vector and explain what it means.   Consider the system of equations .  Write the system in vector form. Find the best estimate, , of using projection. Compute the length of the residual vector.      Compute the length of the residual vector.     Play with the following graph: .    Graph of     What do you observe?   "
+  "body": " Sample Worksheet   Dot products and projection     Let , , , . Find the values of the following expressions:          Are any of these vectors perpendicular to each other?    The vectors and are pictured below. Derive the formula for projection on a line and use it to find the projection of on the line spanned by . Also compute the length of the residual vector.   TikZ Electronics Diagram   a pile of electronic components wired together           Consider the vector equation .  Check that there is no solution that makes the equation true. Use projection to find the best approximation . Compute . Compute the residual vector. Compute the length of the residual vector and explain what it means.   Consider the system of equations .  Write the system in vector form. Find the best estimate, , of using projection. Compute the length of the residual vector.      Compute the length of the residual vector.     Play with the following graph: .    Graph of     What do you observe?   Play with the following graph: .     What do you observe?   "
 },
 {
   "id": "worksheet-dot-products-2-1-1",
@@ -116,6 +116,15 @@ var ptx_lunr_docs = [
   "number": "1.3.1.5",
   "title": "",
   "body": " Play with the following graph: .    Graph of     What do you observe? "
+},
+{
+  "id": "worksheet-dot-products-6",
+  "level": "2",
+  "url": "sec-section3-name.html#worksheet-dot-products-6",
+  "type": "Worksheet Exercise",
+  "number": "1.3.1.6",
+  "title": "",
+  "body": " Play with the following graph: .     What do you observe? "
 },
 {
   "id": "backmatter-2",
