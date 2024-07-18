@@ -104,7 +104,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-section3-name.html#worksheet-dot-products-4-1",
   "type": "Example",
-  "number": "1.3.2",
+  "number": "1.3.1",
   "title": "",
   "body": " Compute the length of the residual vector.  "
 },
