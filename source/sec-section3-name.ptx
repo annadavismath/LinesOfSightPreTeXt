@@ -210,6 +210,15 @@
     </exercise>
   </sidebyside>
   </page>
+
+  <page>
+  <example workspace="3in">
+<p>
+          Compute the length of the residual vector.
+        </p>
+</example>
+</page>
+
 </worksheet>
 
 
