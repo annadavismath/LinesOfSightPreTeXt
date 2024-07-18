@@ -218,11 +218,6 @@
         </p>
 </investigation>
 
-<figure>
-  <caption>Graph of <m>ln(x^2+5)-3</m></caption>
-  <interactive xml:id="desmos-natural-log" desmos="ttox1bvxku" width="60%" aspect="2:3" />
-</figure>
-
 </page>
 
 <exercise workspace="1.25in">
