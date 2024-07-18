@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Multiple choice test",
-  "body": " Multiple choice test  Multiple-Choice, Not Randomized, One Answer stop signs  What color is a stop sign?     Green    Green means go! .      Red    Red is universally used for prohibited activities or serious warnings.      White    White might be hard to see.     What did you see last time you went driving?   Maybe go out for a drive?   Fill-In, String and Number Answers  Complete the following line of a Python program so that it will declare an integer variable age with an initial value of 5 .    age =  ;       A variable of type int is appropriate for whole number ages.      Remember that Java uses just the first three letters of the word integer to define an integral type.        An integer variable may be initialized to a value.      Use 5 as the initial value of the variable.      "
+  "body": " Multiple choice test  Multiple-Choice, Not Randomized, One Answer stop signs  What color is a stop sign?     Green    Green means go! .      Red    Red is universally used for prohibited activities or serious warnings.      White    White might be hard to see.     What did you see last time you went driving?   Maybe go out for a drive?   Fill-In, String and Number Answers  Complete the following line of a Python program so that it will declare an integer variable age with an initial value of 5 .    age =  ;       A variable of type int is appropriate for whole number ages.      Remember that Java uses just the first three letters of the word integer to define an integral type.        An integer variable may be initialized to a value.      Use 5 as the initial value of the variable.        TikZ Electronics Diagram   a pile of electronic components wired together     "
 },
 {
   "id": "multiple-choice-not-randomized",
@@ -44,6 +44,15 @@ var ptx_lunr_docs = [
   "number": "1.2.2",
   "title": "Fill-In, String and Number Answers.",
   "body": "Fill-In, String and Number Answers  Complete the following line of a Python program so that it will declare an integer variable age with an initial value of 5 .    age =  ;       A variable of type int is appropriate for whole number ages.      Remember that Java uses just the first three letters of the word integer to define an integral type.        An integer variable may be initialized to a value.      Use 5 as the initial value of the variable.     "
+},
+{
+  "id": "figure-tikz-electronics",
+  "level": "2",
+  "url": "sec-section2-name.html#figure-tikz-electronics",
+  "type": "Figure",
+  "number": "1.2.3",
+  "title": "",
+  "body": " TikZ Electronics Diagram   a pile of electronic components wired together    "
 },
 {
   "id": "backmatter-2",
