@@ -212,11 +212,11 @@
   </page>
 
   <page>
-  <example workspace="3in">
+  <investigation workspace="3in">
 <p>
           Compute the length of the residual vector.
         </p>
-</example>
+</investigation>
 </page>
 
 </worksheet>
