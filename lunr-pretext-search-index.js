@@ -55,6 +55,15 @@ var ptx_lunr_docs = [
   "body": " TikZ Electronics Diagram   a pile of electronic components wired together    "
 },
 {
+  "id": "sec-section3-name",
+  "level": "1",
+  "url": "sec-section3-name.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Sample Worksheet",
+  "body": " Sample Worksheet  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
