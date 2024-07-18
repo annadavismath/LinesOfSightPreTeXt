@@ -3,5 +3,214 @@
 <section xml:id="sec-section3-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Sample Worksheet</title>
 
-  
+  <worksheet label="worksheet-dot-products" courseid="MAT-150" series="Activity" seriescode="13">
+  <title>Dot products and projection</title>
+  <page>
+  <sidebyside width="45%" margins="0%">
+    <exercise>
+      <introduction>
+        <p>
+          Let <m>{\vec v}_1 = (-4,1)</m>,
+          <m>{\vec v}_2 = (2,2)</m>,
+          <m>{\vec v}_3 = (1,2,3)</m>, <m>{\vec v}_4 = (-2,1,0)</m>.
+          Find the values of the following expressions:
+        </p>
+      </introduction>
+      <task workspace="1in">
+        <p>
+          <m>{\vec v}_1 \cdot {\vec v}_2 = <fillin /></m>
+        </p>
+      </task>
+      <task workspace="1.0in">
+        <p>
+          <m>{\vec v}_3 \cdot {\vec v}_4 = <fillin /></m>
+        </p>
+      </task>
+      <task workspace="1in">
+        <p>
+          <m>\lVert{\vec v}_1\rVert = <fillin /></m>
+        </p>
+      </task>
+      <task workspace="1in">
+        <p>
+          <m>\lVert{\vec v}_4\rVert = <fillin /></m>
+        </p>
+      </task>
+      <task workspace="1in">
+        <p>
+          Are any of these vectors perpendicular to each other?
+          <fillin />
+        </p>
+      </task>
+    </exercise>
+    <exercise workspace="3in">
+      <statement>
+        <p>
+          The vectors <m>\vec a = (3,9)</m> and <m>\vec u = (4,2)</m> are pictured below.
+          Derive the formula for projection on a line and use it to find the projection of <m>\vec a</m> on the line spanned by <m>\vec u</m>.
+          Also compute the length of the residual vector.
+        </p>
+        <figure xml:id="figure-tikz-electronics">
+                    <caption>TikZ Electronics Diagram</caption>
+                    <image xml:id="tikz-electronics">
+                        <shortdescription>
+                            a pile of electronic components wired together
+                        </shortdescription>
+                        <latex-image>
+                        
+<!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                        <![CDATA[\tikzset{%
+                          block/.style    = {draw, thick, rectangle, minimum height = 3em,
+                            minimum width = 3em},
+                          sum/.style      = {draw, circle, node distance = 2cm}, % Adder
+                          input/.style    = {coordinate}, % Input
+                          output/.style   = {coordinate} % Output
+                        }
+                        % Defining string as labels of certain blocks.
+                        \newcommand{\suma}{\Large$+$}
+                        \newcommand{\inte}{$\displaystyle \int$}
+                        \newcommand{\derv}{\huge$\frac{d}{dt}$}
+
+                        \begin{tikzpicture}[auto, thick, node distance=2cm, >=triangle 45]
+                        \draw
+                            % Drawing the blocks of first filter :
+                            node at (0,0)[right=-3mm]{\Large \textbullet}
+                            node [input, name=input1] {}
+                            node [sum, right of=input1] (suma1) {\suma}
+                            node [block, right of=suma1] (inte1) {\inte}
+                                 node at (6.8,0)[block] (Q1) {\Large $Q_1$}
+                                 node [block, below of=inte1] (ret1) {\Large$T_1$};
+                            % Joining blocks.
+                            % Commands \draw with options like [->] must be written individually
+                            \draw[->](input1) -- node {$X(Z)$}(suma1);
+                            \draw[->](suma1) -- node {} (inte1);
+                            \draw[->](inte1) -- node {} (Q1);
+                            \draw[->](ret1) -| node[near end]{} (suma1);
+                            % Adder
+                        \draw
+                            node at (5.4,-4) [sum, name=suma2] {\suma}
+                                % Second stage of filter
+                            node at  (1,-6) [sum, name=suma3] {\suma}
+                            node [block, right of=suma3] (inte2) {\inte}
+                            node [sum, right of=inte2] (suma4) {\suma}
+                            node [block, right of=suma4] (inte3) {\inte}
+                            node [block, right of=inte3] (Q2) {\Large$Q_2$}
+                            node at (9,-8) [block, name=ret2] {\Large$T_2$}
+                        ;
+                            % Joining the blocks of second filter
+                            \draw[->] (suma3) -- node {} (inte2);
+                            \draw[->] (inte2) -- node {} (suma4);
+                            \draw[->] (suma4) -- node {} (inte3);
+                            \draw[->] (inte3) -- node {} (Q2);
+                            \draw[->] (ret2) -| (suma3);
+                            \draw[->] (ret2) -| (suma4);
+                                 % Third stage of filter:
+                            % Defining nodes:
+                        \draw
+                            node at (11.5, 0) [sum, name=suma5]{\suma}
+                            node [output, right of=suma5]{}
+                            node [block, below of=suma5] (deriv1){\derv}
+                            node [output, right of=suma5] (sal2){}
+                        ;
+                            % Joining the blocks:
+                            \draw[->] (suma2) -| node {}(suma3);
+                            \draw[->] (Q1) -- (8,0) |- node {}(ret1);
+                            \draw[->] (8,0) |- (suma2);
+                            \draw[->] (5.4,0) -- (suma2);
+                            \draw[->] (Q1) -- node {}(suma5);
+                            \draw[->] (deriv1) -- node {}(suma5);
+                            \draw[->] (Q2) -| node {}(deriv1);
+                                \draw[<->] (ret2) -| node {}(deriv1);
+                                \draw[->] (suma5) -- node {$Y(Z)$}(sal2);
+                                % Drawing nodes with \textbullet
+                        \draw
+                            node at (8,0) {\textbullet}
+                            node at (8,-2){\textbullet}
+                            node at (5.4,0){\textbullet}
+                                node at (5,-8){\textbullet}
+                                node at (11.5,-6){\textbullet}
+                                ;
+                            % Boxing and labelling noise shapers
+                            \draw [color=gray,thick](-0.5,-3) rectangle (9,1);
+                            \node at (-0.5,1) [above=5mm, right=0mm] {\textsc{first-order noise shaper}};
+                            \draw [color=gray,thick](-0.5,-9) rectangle (12.5,-5);
+                            \node at (-0.5,-9) [below=5mm, right=0mm] {\textsc{second-order noise shaper}};
+                        \end{tikzpicture}]]>
+                        </latex-image>
+                    </image>
+                </figure>
+          
+      </statement>
+    </exercise>
+  </sidebyside>
+  </page>
+  <page>
+  <sidebyside width="48%" margins="0%">
+    <exercise workspace="1.25in">
+      <introduction>
+        <p>
+          Consider the vector equation
+          <me>
+            m \begin{bmatrix}2 \\ 5\end{bmatrix} = \begin{bmatrix}3 \\ 7\end{bmatrix}
+          </me>.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          Check that there is no solution <m>m</m> that makes the equation true.
+        </p>
+      </task>
+      <task>
+        <p>
+          Use projection to find the best approximation <m>\hat m</m>.
+        </p>
+      </task>
+      <task>
+        <p>
+          Compute <m>\hat m \begin{bmatrix}2 \\ 5\end{bmatrix} </m>.
+        </p>
+      </task>
+      <task>
+        <p>
+          Compute the residual vector.
+        </p>
+      </task>
+      <task>
+        <p>
+          Compute the length of the residual vector and explain what it means.
+        </p>
+      </task>
+    </exercise>
+    <exercise>
+      <introduction>
+        <p>
+          Consider the system of equations
+          <md>
+            <mrow>3t \amp =5</mrow>
+            <mrow>2t \amp = 9</mrow>
+          </md>.
+        </p>
+      </introduction>
+      <task workspace="2in">
+        <p>
+          Write the system in vector form.
+        </p>
+      </task>
+      <task workspace="3.9in">
+        <p>
+          Find the best estimate, <m>\hat t</m>,
+          of <m>t</m> using projection.
+        </p>
+      </task>
+      <task workspace="2in">
+        <p>
+          Compute the length of the residual vector.
+        </p>
+      </task>
+    </exercise>
+  </sidebyside>
+  </page>
+</worksheet>
+
+
   </section>
