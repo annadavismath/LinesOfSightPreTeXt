@@ -50,9 +50,9 @@
           Derive the formula for projection on a line and use it to find the projection of <m>\vec a</m> on the line spanned by <m>\vec u</m>.
           Also compute the length of the residual vector.
         </p>
-        <figure xml:id="figure-tikz-electronics">
+        <figure xml:id="figure-tikz-electronics1">
                     <caption>TikZ Electronics Diagram</caption>
-                    <image xml:id="tikz-electronics">
+                    <image xml:id="tikz-electronics1">
                         <shortdescription>
                             a pile of electronic components wired together
                         </shortdescription>
