@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Up the Stairs</title>
+
+  <exercise label="multiple-choice-not-randomized">
+  <title>Multiple-Choice, Not Randomized, One Answer</title>
+  <idx>stop signs</idx>
+  <statement>
+    <p>
+      What color is a stop sign?
+    </p>
+  </statement>
+  <choices>
+  <choice>
+  <statement>
+    <p>
+      Green
+    </p>
+  </statement>
+  <feedback>
+    <p>
+      Green means
+      <q>go!</q>.
+    </p>
+  </feedback>
+  </choice>
+  <choice correct="yes">
+  <statement>
+    <p>
+      Red
+    </p>
+  </statement>
+  <feedback>
+    <p>
+      Red is universally used for prohibited activities or serious warnings.
+    </p>
+  </feedback>
+  </choice>
+  <choice>
+  <statement>
+    <p>
+      White
+    </p>
+  </statement>
+  <feedback>
+    <p>
+      White might be hard to see.
+    </p>
+  </feedback>
+  </choice>
+  </choices>
+  <hint>
+    <p>
+      What did you see last time you went driving?
+    </p>
+  </hint>
+  <hint>
+    <p>
+      Maybe go out for a drive?
+    </p>
+  </hint>
+</exercise>
+
+  </section>
