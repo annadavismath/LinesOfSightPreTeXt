@@ -12,4 +12,6 @@
 
   <xi:include href="sec-section2-name.ptx" />
 
+  <xi:include href="sec-section3-name.ptx" />
+
 </chapter>
